@@ -1,0 +1,80 @@
+/* Page Content and Wrapper */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+body {
+    background-color: #080808;
+}
+
+.wrapper {
+    width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    width: 100%;
+    background-color: #fafafa;
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 150px;
+    padding: 10px 40px;
+    box-shadow: 10px 10px #ffda34;
+    margin-top: 10px;
+}
+
+/* Card Title */
+h1 {
+    color: #080808;
+    background: #ffda34;
+    box-shadow: 5px 5px #080808;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Card Details */
+.container p {
+    color: #080808;
+    line-height: 2;
+    font-size: 19px;
+}
+  
+.container h3::before {
+    content: "- ";
+}
+  
+.container h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #080808;
+    margin: 20px 0 20px 0;
+}
+
+/* Button */
+.container button {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #080808;
+    cursor: pointer;
+    background-color: #ffda34;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    box-shadow: 5px 5px #ffda34;
+    background-color: #080808;
+    color: #ffda34;
+    transition: all 0.2s
+  }
