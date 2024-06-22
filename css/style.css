@@ -139,7 +139,7 @@ em {
 }
   
 .slider:before {
-    background-color: #fff;
+    background-color: var(--box-color);
     bottom: 4px;
     content: "";
     height: 26px;
